@@ -1,0 +1,13 @@
+Let's break up that weird string -rwxr-xr-- into its actual components:
+
+The very first character (-) just tells you it’s a standard file. (If it were a d, it means it's a directory).
+
+The next 3 characters (rwx) belong to the User $\rightarrow$ They can read, write, and execute it. 
+
+The next 3 characters (r-x) belong to the Group $\rightarrow$ They can read and execute it, but cannot write to it (indicated by the dash -). 
+
+The final 3 characters (r--) belong to Other $\rightarrow$ The general public can only read it. They cannot edit it or run it.
+  -   rwx   r-x   r--
+  |    |     |     |
+Type User Group Other       
+  
