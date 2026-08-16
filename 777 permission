@@ -1,0 +1,3 @@
+The permissions -rwxrwxrwx (often called "777 permissions" in Linux) mean that absolutely anyone—the owner, any user in the group, 
+and any random guest account or malicious attacker on the system—can read, modify, delete, or execute that file. It is the ultimate 
+security nightmare and a massive red flag for a SOC Analyst.
