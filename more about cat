@@ -1,0 +1,7 @@
+cat (Concatenate / View Entire File)
+cat is used to display the entire contents of a file directly on your screen. It’s perfect for short files.
+
+How to use it: cat <filename>
+
+Example: cat notes.txt will print everything written inside that file onto your terminal.
+ 
