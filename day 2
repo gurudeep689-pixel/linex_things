@@ -1,0 +1,10 @@
+Every file has three categories of people who can interact with it:
+
+User (u): The specific individual who owns the file (usually the person who created it).
+
+Group (g): A collection of users who share the same access level (e.g., a group called it_security).
+
+Other (o): Everyone else on the system (the public global access).
+ 
+  
+ 
