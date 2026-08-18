@@ -1,0 +1,10 @@
+echo (Print Text or Write to a File)
+echo simply repeats back whatever text you give it.
+
+Example: echo "Hello Security" just prints Hello Security on your screen.
+
+The > Operator (Overwrite): You can redirect that text into a file instead of the screen.
+echo "Authorized Personnel Only" > banner.txt (This creates banner.txt and writes that text inside it. If the file already had text, it wipes it and overwrites it).
+
+The >> Operator (Append): If you don't want to wipe the file, but want to add a new line to the bottom:
+echo "New alert detected" >> banner.txt
