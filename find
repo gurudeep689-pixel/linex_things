@@ -1,0 +1,7 @@
+find (Hunting for Files)
+Hackers love to drop backdoors into random system folders and name them something innocent like system_update.log. You can't manually browse thousands of folders using cd to find it.
+
+How to use it: find / -name "filename"
+
+Advanced Hacking Hunt: You can find files modified within a certain timeframe. For example:
+find / -mtime -2 (This searches the entire system for any file that was modified or created in the last 2 days—perfect for finding what a hacker changed).
