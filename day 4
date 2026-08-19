@@ -1,0 +1,21 @@
+It can be customized to provide useful information to the user. The format can look something like this:
+
+<username>@<hostname><current working directory>$
+
+The home directory for a user is marked with a tilde <~> and is the default folder when we log in.
+ 
+<username>@<hostname>[~]$ 
+
+The dollar sign, in this case, stands for a user. As soon as we log in as root, the character changes to a hash <#> and looks like this:
+
+root@htb[/htb]#
+
+For example, when we upload and run a shell on the target system, we may not see the username, hostname, and current working directory. This may be due to the PS1 variable in the environment not being set correctly. In this case, we would see the following prompts:
+
+Unprivileged - User Shell Prompt
+
+$
+
+Privileged - Root Shell Prompt
+  
+#
